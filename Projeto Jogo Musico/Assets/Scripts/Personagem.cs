@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Personagem : MonoBehaviour
 {
     // Start is called before the first frame update
-     private float velocidade=1;
-     Vector3 posicao= new Vector3 (-16,4,0);
+     private float velocidade=3;
+     Vector3 posicao= new Vector3 (0,0,0);
+       Vector3 proximo1= new Vector3 (0,-4,0);
+         Vector3 proximo2= new Vector3 (0,-8,0);
     void Start()
     {
         
@@ -22,8 +24,15 @@ public class Personagem : MonoBehaviour
     {
      if (other.gameObject.tag == "obstaculo")
     {
-  Destroy(gameObject);
+ this.gameObject.transform.position = posicao;
     }
-    
+      if (other.gameObject.tag == "proximo1")
+    {
+ this.gameObject.transform.position = proximo1;
+    }
+     if (other.gameObject.tag == "proximo2")
+    {
+ this.gameObject.transform.position = proximo2;
+    }
     }
 }
