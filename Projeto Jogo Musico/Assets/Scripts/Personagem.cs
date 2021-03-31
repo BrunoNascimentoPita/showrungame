@@ -27,7 +27,7 @@ private float velocidade1=0;
     void Update()
     {
       // Determina que o personagem andará 1*segundo de tempo e para pressionando espaço
-       if (Input.GetAxisRaw("Space") > 0)
+       if (Input.GetAxisRaw("Jump") > 0)
         {
            transform.Translate(Vector2.right * velocidade1 * Time.deltaTime); 
         }else{
