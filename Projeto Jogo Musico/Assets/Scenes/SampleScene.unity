@@ -490,8 +490,8 @@ GameObject:
   - component: {fileID: 664481430}
   - component: {fileID: 664481429}
   m_Layer: 0
-  m_Name: PassagemPraBaixo
-  m_TagString: proximo2
+  m_Name: PassagemPraBaixo2
+  m_TagString: PassagemPraBaixo2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -765,8 +765,8 @@ GameObject:
   - component: {fileID: 1575309646}
   - component: {fileID: 1575309645}
   m_Layer: 0
-  m_Name: PassagemPraBaixo
-  m_TagString: proximo1
+  m_Name: PassagemPraBaixo1
+  m_TagString: PassagemPraBaixo1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

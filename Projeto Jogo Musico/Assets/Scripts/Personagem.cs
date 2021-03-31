@@ -4,39 +4,54 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Personagem : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Seta a velocidade 
      private float velocidade=3;
-     Vector3 posicao= new Vector3 (0,0,0);
-       Vector3 proximo1= new Vector3 (32.7f,-4,0);
-       Vector2 proximo1rotate= new Vector2 (0,180);
-         Vector3 proximo2= new Vector3 (0,-8,0);
-           Vector2 proximo2rotate= new Vector2 (0,0);
+
+     // Seta a posição inicial como ponto de reviver
+      Vector3 reviver= new Vector3 (0,0,0);
+
+    //muda a posição do personagem pra primeira passagem e muda a direção//
+      Vector3 passagemPraBaixo1= new Vector3 (32.7f,-4,0);
+      Vector2 passagemPraBaixo1rotate= new Vector2 (0,180);
+
+    //muda a posição do personagem pra segunda passagem e muda para a direção inicial//
+      Vector3 passagemPraBaixo2= new Vector3 (0,-8,0);
+      Vector2 passagemPraBaixo2rotate= new Vector2 (0,0);
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+      // Determina que o personagem andará 1*segundo de tempo
          transform.Translate(Vector2.right * velocidade * Time.deltaTime); 
     }
-    
+
+    // Colisor com is trigger ativo
     void OnTriggerEnter2D(Collider2D other) 
     {
+
+      // Determina que qualquer objeto com a tag obstaculo faça com que ele der respawn pro inicio
      if (other.gameObject.tag == "obstaculo")
     {
- this.gameObject.transform.position = posicao;
+ this.gameObject.transform.position = reviver;
     }
-      if (other.gameObject.tag == "proximo1")
+
+    //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo1 ele mude a posição do personagem determinada na variável
+      if (other.gameObject.tag == "PassagemPraBaixo1")
     {
- this.gameObject.transform.position = proximo1;
- this.gameObject.transform.eulerAngles = proximo1rotate;
+ this.gameObject.transform.position = passagemPraBaixo1;
+ this.gameObject.transform.eulerAngles = passagemPraBaixo1rotate;
     }
-     if (other.gameObject.tag == "proximo2")
+
+     //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo2 ele mude a posição do personagem determinada na variável
+     if (other.gameObject.tag == "PassagemPraBaixo2")
     {
- this.gameObject.transform.position = proximo2;
- this.gameObject.transform.eulerAngles = proximo2rotate;
+ this.gameObject.transform.position = passagemPraBaixo2;
+ this.gameObject.transform.eulerAngles = passagemPraBaixo2rotate;
     }
     }
 }
