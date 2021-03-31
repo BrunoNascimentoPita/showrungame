@@ -6,6 +6,7 @@ public class Personagem : MonoBehaviour
 {
     // Start is called before the first frame update
      private float velocidade=1;
+     Vector3 posicao= new Vector3 (-16,4,0);
     void Start()
     {
         
@@ -21,7 +22,7 @@ public class Personagem : MonoBehaviour
     {
      if (other.gameObject.tag == "obstaculo")
     {
-   Destroy(gameObject);
+  Destroy(gameObject);
     }
     
     }
