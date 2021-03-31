@@ -6,7 +6,7 @@ public class Personagem : MonoBehaviour
 {
     // Seta a velocidade 
      private float velocidade=3;
-
+private float velocidade1=0;
      // Seta a posição inicial como ponto de reviver
       Vector3 reviver= new Vector3 (0,0,0);
 
@@ -20,14 +20,21 @@ public class Personagem : MonoBehaviour
     
     void Start()
     {
-        
+         
     }
 
     
     void Update()
     {
-      // Determina que o personagem andará 1*segundo de tempo
-         transform.Translate(Vector2.right * velocidade * Time.deltaTime); 
+      // Determina que o personagem andará 1*segundo de tempo e para pressionando espaço
+       if (Input.GetAxisRaw("Space") > 0)
+        {
+           transform.Translate(Vector2.right * velocidade1 * Time.deltaTime); 
+        }else{
+       transform.Translate(Vector2.right * velocidade * Time.deltaTime); 
+        }
+        
+
     }
 
     // Colisor com is trigger ativo
