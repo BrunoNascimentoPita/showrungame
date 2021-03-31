@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 120026947}
   - component: {fileID: 120026946}
   m_Layer: 0
-  m_Name: ArvorePixelArt2
+  m_Name: ArvoreRosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120026945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.06, y: 5.2, z: 0}
+  m_LocalPosition: {x: 2.58, y: 0.73, z: 0}
   m_LocalScale: {x: 0.5228486, y: 0.5228486, z: 0.5228486}
   m_Children: []
   m_Father: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 163427758}
   - component: {fileID: 163427757}
   m_Layer: 0
-  m_Name: chaoimprovisado (2)
+  m_Name: ChaoTest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,11 +308,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163427756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 2.05, z: 0}
+  m_LocalPosition: {x: 16.24, y: -1.96, z: 0}
   m_LocalScale: {x: 36.07681, y: 1.6014235, z: 1.0382}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &377688027
 GameObject:
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 377688029}
   - component: {fileID: 377688028}
   m_Layer: 0
-  m_Name: bg
+  m_Name: Fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -390,7 +390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377688027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 16.28, y: -4.0299997, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -473,11 +473,68 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 16.21, y: -4.39, z: -10}
   m_LocalScale: {x: 1.05, y: 1.275, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &664481428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664481430}
+  - component: {fileID: 664481429}
+  m_Layer: 0
+  m_Name: PassagemPraBaixo
+  m_TagString: proximo2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &664481429
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664481428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.336586, y: 1.0770738}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.326828, y: 3.647806}
+  m_EdgeRadius: 0
+--- !u!4 &664481430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664481428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3, y: -4.74, z: -15.074668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &983960480
 GameObject:
@@ -491,7 +548,7 @@ GameObject:
   - component: {fileID: 983960483}
   - component: {fileID: 983960482}
   m_Layer: 0
-  m_Name: chaoimprovisado (1)
+  m_Name: ChaoTest3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,11 +639,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983960480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0239, y: -5.71, z: 0}
+  m_LocalPosition: {x: 16.28, y: -9.96, z: 0}
   m_LocalScale: {x: 36.07681, y: 1.6014235, z: 1.0382}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1097999995
 GameObject:
@@ -600,7 +657,7 @@ GameObject:
   - component: {fileID: 1097999997}
   - component: {fileID: 1097999996}
   m_Layer: 0
-  m_Name: chaoimprovisado (3)
+  m_Name: ChaoTest2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -691,13 +748,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097999995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -1.71, z: 0}
+  m_LocalPosition: {x: 16.28, y: -5.96, z: 0}
   m_LocalScale: {x: 36.07681, y: 1.6014235, z: 1.0382}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1572460565
+--- !u!1 &1575309644
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -705,23 +762,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1572460566}
+  - component: {fileID: 1575309646}
+  - component: {fileID: 1575309645}
   m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
+  m_Name: PassagemPraBaixo
+  m_TagString: proximo1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1572460566
+--- !u!61 &1575309645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575309644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.336586, y: 1.3239032}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.326828, y: 3.6478064}
+  m_EdgeRadius: 0
+--- !u!4 &1575309646
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572460565}
+  m_GameObject: {fileID: 1575309644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1900804, y: 1.4634912, z: -15.074668}
+  m_LocalPosition: {x: 34.37, y: -0.74, z: -15.074668}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -742,7 +826,7 @@ GameObject:
   - component: {fileID: 1685316865}
   - component: {fileID: 1685316864}
   m_Layer: 0
-  m_Name: Sprite-0003
+  m_Name: Personagem
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -826,11 +910,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685316860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1685316864
 BoxCollider2D:
@@ -904,7 +988,7 @@ GameObject:
   - component: {fileID: 1864061522}
   - component: {fileID: 1864061521}
   m_Layer: 0
-  m_Name: Obstaculotest
+  m_Name: ObstaculoTest
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1006,7 +1090,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864061520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.91, y: 6.13, z: 0}
+  m_LocalPosition: {x: 4.8, y: 4.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

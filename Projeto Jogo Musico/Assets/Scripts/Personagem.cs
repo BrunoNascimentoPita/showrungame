@@ -7,8 +7,10 @@ public class Personagem : MonoBehaviour
     // Start is called before the first frame update
      private float velocidade=3;
      Vector3 posicao= new Vector3 (0,0,0);
-       Vector3 proximo1= new Vector3 (0,-4,0);
+       Vector3 proximo1= new Vector3 (32.7f,-4,0);
+       Vector2 proximo1rotate= new Vector2 (0,180);
          Vector3 proximo2= new Vector3 (0,-8,0);
+           Vector2 proximo2rotate= new Vector2 (0,0);
     void Start()
     {
         
@@ -29,10 +31,12 @@ public class Personagem : MonoBehaviour
       if (other.gameObject.tag == "proximo1")
     {
  this.gameObject.transform.position = proximo1;
+ this.gameObject.transform.eulerAngles = proximo1rotate;
     }
      if (other.gameObject.tag == "proximo2")
     {
  this.gameObject.transform.position = proximo2;
+ this.gameObject.transform.eulerAngles = proximo2rotate;
     }
     }
 }
