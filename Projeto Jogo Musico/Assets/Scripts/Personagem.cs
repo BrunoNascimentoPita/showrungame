@@ -70,4 +70,20 @@ public class Personagem : MonoBehaviour
     rig.AddForce(new Vector2(0f,JumpForce), ForceMode2D.Impulse);
 }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.layer == 6)
+        {
+            isJumping = false;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.layer == 6)
+        {
+            isJumping = true;
+        }
+    }
 }
