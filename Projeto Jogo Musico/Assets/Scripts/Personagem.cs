@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 public class Personagem : MonoBehaviour
 {
     // Seta a velocidade 
-     private float velocidade=3;
-private float velocidade1=0;
+      private float velocidade=3;
+      private float velocidade1=0;
+      public bool isJumping;
+    //Seta o pulo
+      private float JumpForce=5;
+      private Rigidbody2D rig;
      // Seta a posição inicial como ponto de reviver
       Vector3 reviver= new Vector3 (0,0,0);
 
@@ -18,13 +22,13 @@ private float velocidade1=0;
       Vector3 passagemPraBaixo2= new Vector3 (0,-8,0);
       Vector2 passagemPraBaixo2rotate= new Vector2 (0,0);
     
-    void Start()
+      void Start()
     {
-         
+         rig= GetComponent<Rigidbody2D>();
     }
 
     
-    void Update()
+      void Update()
     {
       // Determina que o personagem andará 1*segundo de tempo e para pressionando espaço
        if (Input.GetAxisRaw("Jump") > 0)
@@ -33,7 +37,7 @@ private float velocidade1=0;
         }else{
        transform.Translate(Vector2.right * velocidade * Time.deltaTime); 
         }
-        
+        Jump();
 
     }
 
@@ -44,21 +48,26 @@ private float velocidade1=0;
       // Determina que qualquer objeto com a tag obstaculo faça com que ele der respawn pro inicio
      if (other.gameObject.tag == "obstaculo")
     {
- this.gameObject.transform.position = reviver;
+    this.gameObject.transform.position = reviver;
     }
 
     //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo1 ele mude a posição do personagem determinada na variável
       if (other.gameObject.tag == "PassagemPraBaixo1")
     {
- this.gameObject.transform.position = passagemPraBaixo1;
- this.gameObject.transform.eulerAngles = passagemPraBaixo1rotate;
+     this.gameObject.transform.position = passagemPraBaixo1;
+     this.gameObject.transform.eulerAngles = passagemPraBaixo1rotate;
     }
 
      //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo2 ele mude a posição do personagem determinada na variável
      if (other.gameObject.tag == "PassagemPraBaixo2")
     {
- this.gameObject.transform.position = passagemPraBaixo2;
- this.gameObject.transform.eulerAngles = passagemPraBaixo2rotate;
+     this.gameObject.transform.position = passagemPraBaixo2;
+     this.gameObject.transform.eulerAngles = passagemPraBaixo2rotate;
     }
+    }
+    void Jump (){
+    if(Input.GetKeyDown(KeyCode.UpArrow) && !isJumping){
+    rig.AddForce(new Vector2(0f,JumpForce), ForceMode2D.Impulse);
+}
     }
 }
