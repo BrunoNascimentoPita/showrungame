@@ -42,15 +42,18 @@ public class Personagem : MonoBehaviour
     }
 
     // Colisor com is trigger ativo
+    
     void OnTriggerEnter2D(Collider2D other) 
     {
-
+      
       // Determina que qualquer objeto com a tag obstaculo faça com que ele der respawn pro inicio
      if (other.gameObject.tag == "obstaculo")
     {
-    this.gameObject.transform.position = reviver;
+       Time.timeScale = 0;
+       GameController.instance.ShowGameOver();
+       Destroy(gameObject);
     }
-
+  
     //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo1 ele mude a posição do personagem determinada na variável
       if (other.gameObject.tag == "PassagemPraBaixo1")
     {
@@ -77,6 +80,7 @@ public class Personagem : MonoBehaviour
         {
             isJumping = false;
         }
+
     }
 
     void OnCollisionExit2D(Collision2D collision)
