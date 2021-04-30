@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17ea2a34c12da14dbc4c77a03d7b749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lvlName: 
 --- !u!114 &209741304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17ea2a34c12da14dbc4c77a03d7b749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lvlName: SelectFase
 --- !u!114 &564212028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,6 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17ea2a34c12da14dbc4c77a03d7b749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lvlName: 
 --- !u!114 &1639666173
 MonoBehaviour:
   m_ObjectHideFlags: 0
