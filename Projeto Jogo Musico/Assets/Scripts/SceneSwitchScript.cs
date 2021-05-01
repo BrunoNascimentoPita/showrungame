@@ -20,7 +20,10 @@ public class SceneSwitchScript : MonoBehaviour
     {
         SceneManager.LoadScene("Fase3");
     }
-
+public void SelectFase()
+    {
+        SceneManager.LoadScene("_SelectFase");
+    }
     public void Sair()
     {
         Application.Quit();
