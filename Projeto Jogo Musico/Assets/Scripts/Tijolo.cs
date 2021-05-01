@@ -32,7 +32,6 @@ public class Tijolo : MonoBehaviour
 
         if(tempo > tempoMaximo)
         {
-            Debug.Log("funcionou");
             tempo = 0;
         }
 

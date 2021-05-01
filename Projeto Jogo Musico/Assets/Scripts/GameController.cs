@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 {
 
     public GameObject gameOver;
+    public GameObject winTela;
 
     public static GameController instance;
     // Start is called before the first frame update
@@ -25,6 +26,11 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(lvlName);
         Time.timeScale = 1;
+    }
+
+    public void ShowWinTela()
+    {
+        winTela.SetActive(true);
     }
 
 }

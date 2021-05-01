@@ -7,6 +7,7 @@ TagManager:
   - obstaculo
   - PassagemPraBaixo2
   - PassagemPraBaixo1
+  - win
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,7 @@ public class Personagem : MonoBehaviour
       private float velocidade=3;
       private float velocidade1=0;
       public bool isJumping;
+
     //Seta o pulo
       private float JumpForce=5;
       private Rigidbody2D rig;
@@ -67,6 +68,14 @@ public class Personagem : MonoBehaviour
      this.gameObject.transform.position = passagemPraBaixo2;
      this.gameObject.transform.eulerAngles = passagemPraBaixo2rotate;
     }
+
+    if (other.gameObject.tag == "win")
+    {
+      Debug.Log("Colidiu");
+      GameController.instance.ShowWinTela();
+      Destroy(gameObject);
+    }
+
     }
     void Jump (){
     if(Input.GetKeyDown(KeyCode.UpArrow) && !isJumping){
