@@ -74,6 +74,7 @@ public class Personagem : MonoBehaviour
       Debug.Log("Colidiu");
       GameController.instance.ShowWinTela();
       Destroy(gameObject);
+      PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex);
     }
 
     }

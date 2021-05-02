@@ -6342,6 +6342,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1599496217}
     m_Modifications:
+    - target: {fileID: 7343514739849764530, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1599496218}
+    - target: {fileID: 7343514739849764530, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MenuInicial
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343514739849764530, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneSwitchScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343514739849764530, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7343514740142602040, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6349,6 +6365,10 @@ PrefabInstance:
     - target: {fileID: 7343514740142602040, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectFase
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343514740199310267, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
+      propertyPath: m_Text
+      value: Menu inicial
       objectReference: {fileID: 0}
     - target: {fileID: 7343514740930795585, guid: 302c7e9836824084fbc3a88e25e61136, type: 3}
       propertyPath: m_Name

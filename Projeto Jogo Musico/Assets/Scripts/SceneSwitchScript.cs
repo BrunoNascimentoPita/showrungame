@@ -24,9 +24,18 @@ public void SelectFase()
     {
         SceneManager.LoadScene("_SelectFase");
     }
+    public void MenuInicial()
+    {
+        SceneManager.LoadScene("_MenuInicial");
+    }
     public void Sair()
     {
         Application.Quit();
     }
+
+    public void callLevels()
+        {
+            SceneManager.LoadScene(PlayerPrefs.GetInt("faseAtual") + 1);
+        }
 
 }

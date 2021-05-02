@@ -297,7 +297,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 564212027}
         m_TargetAssemblyTypeName: SceneSwitchScript, Assembly-CSharp
-        m_MethodName: EscolherFase1
+        m_MethodName: callLevels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
