@@ -2,9 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class SceneSwitchScript : MonoBehaviour
 {
+
+    public Button [] botões; 
+    private void Update()
+    {
+        for(int i = 0; i<botões.Length; i++)
+        {
+            if(i + 2 > PlayerPrefs.GetInt("faseCompletada"))
+            {
+            botões[i].interactable = false;
+
+            }
+        }
+    }
 
     public void EscolherFase1()
     {
@@ -33,9 +46,9 @@ public void SelectFase()
         Application.Quit();
     }
 
-    public void callLevels()
+    /*public void callLevels()
         {
             SceneManager.LoadScene(PlayerPrefs.GetInt("faseAtual") + 1);
         }
-
+    */
 }
