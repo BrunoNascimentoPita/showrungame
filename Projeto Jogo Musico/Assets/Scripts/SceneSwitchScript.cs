@@ -22,16 +22,19 @@ public class SceneSwitchScript : MonoBehaviour
     public void EscolherFase1()
     {
         SceneManager.LoadScene("Fase1");
+        Time.timeScale = 1;
     }
 
     public void EscolherFase2()
     {
         SceneManager.LoadScene("Fase2");
+        Time.timeScale = 1;
     }
 
     public void EscolherFase3()
     {
         SceneManager.LoadScene("Fase3");
+        Time.timeScale = 1;
     }
 public void SelectFase()
     {
@@ -41,6 +44,8 @@ public void SelectFase()
     {
         SceneManager.LoadScene("_MenuInicial");
     }
+
+
     public void Sair()
     {
         Application.Quit();

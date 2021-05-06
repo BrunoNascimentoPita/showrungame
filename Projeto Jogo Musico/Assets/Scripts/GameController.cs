@@ -36,6 +36,7 @@ public class GameController : MonoBehaviour
 
     public void ShowPauseTela()
     {
+        
         pauseTela.SetActive(true);
         Time.timeScale = 0;
     }
