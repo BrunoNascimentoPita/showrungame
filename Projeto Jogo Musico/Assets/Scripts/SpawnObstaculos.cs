@@ -14,7 +14,7 @@ public class SpawnObstaculos : MonoBehaviour
     void Start()
     {
         GameObject newObst = Instantiate(obst);
-        newObst.transform.position = transform.position + new Vector3(0,Random.Range(-limites, limites), 0 );
+        newObst.transform.position = transform.position + new Vector3(Random.Range(-limites, limites), 0, 0 );
     }
 
     // Update is called once per frame
