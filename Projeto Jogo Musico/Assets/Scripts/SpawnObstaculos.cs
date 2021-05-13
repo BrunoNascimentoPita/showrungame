@@ -23,8 +23,8 @@ public class SpawnObstaculos : MonoBehaviour
         if (tempo> tempoMaximo)
         {
             GameObject newObst = Instantiate(obst);
-            newObst.transform.position = transform.position + new Vector3(0,Random.Range(-limites, limites), 0 );
-            Destroy(newObst, 15f);
+            newObst.transform.position = transform.position + new Vector3(Random.Range(-limites, limites), 0, 0);
+            Destroy(newObst, 30f);
             tempo = 0;
         }
 
