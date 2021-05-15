@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Personagem : MonoBehaviour
 {
     // Seta a velocidade 
-      private float velocidade=3;
+      public float velocidade;
       private float velocidade1=0;
       public bool isJumping;
 

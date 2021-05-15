@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927a1af750f3a9948be31fc74f14e96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 3
   isJumping: 0
 --- !u!1 &232384710
 GameObject:
@@ -2262,6 +2263,10 @@ PrefabInstance:
     - target: {fileID: 3541817251652435195, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541817251652435196, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
+      propertyPath: velocidade
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3541817251652435198, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
       propertyPath: m_Name
