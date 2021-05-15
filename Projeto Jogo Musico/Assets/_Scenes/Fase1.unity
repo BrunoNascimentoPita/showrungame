@@ -1221,7 +1221,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 86c53af837a1be740a9adc11d272429e, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.198
   m_Pitch: 1
@@ -1319,7 +1319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3def00b62b2d15747b8d262f681eecfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSourceMusicaDeFundo: {fileID: 1457116585}
+  BGM: {fileID: 1457116585}
+  musicFase1: {fileID: 8300000, guid: 86c53af837a1be740a9adc11d272429e, type: 3}
+  musicFase2: {fileID: 8300000, guid: f60d7f6435cada34eac5ea658dc509a7, type: 3}
+  musicFase3: {fileID: 8300000, guid: cd1d38a31fb0425469d3f3caed928b47, type: 3}
 --- !u!4 &1457116587
 Transform:
   m_ObjectHideFlags: 0
@@ -2222,11 +2225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3541817251652435195, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.184
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 3541817251652435195, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.155
+      value: -1.12
       objectReference: {fileID: 0}
     - target: {fileID: 3541817251652435195, guid: abbc8fda4baf5ae4a8ded9b21c02f928, type: 3}
       propertyPath: m_LocalPosition.z
