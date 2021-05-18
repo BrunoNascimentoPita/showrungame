@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - obstaculo
-  - PassagemPraBaixo2
-  - PassagemPraBaixo1
   - win
+  - PassagemPraCima1
+  - PassagemPraCima2
   layers:
   - Default
   - TransparentFX

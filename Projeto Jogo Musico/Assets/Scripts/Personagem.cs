@@ -16,12 +16,12 @@ public class Personagem : MonoBehaviour
       Vector3 reviver= new Vector3 (0,0,0);
 
     //muda a posição do personagem pra primeira passagem e muda a direção//
-      Vector3 passagemPraBaixo1= new Vector3 (32.7f,-4,0);
-      Vector2 passagemPraBaixo1rotate= new Vector2 (0,180);
+      Vector3 passagemPraCima1= new Vector3 (27.42f,-5.23f,0);
+      Vector2 passagemPraCima1rotate= new Vector2 (0,180);
 
     //muda a posição do personagem pra segunda passagem e muda para a direção inicial//
-      Vector3 passagemPraBaixo2= new Vector3 (0,-8,0);
-      Vector2 passagemPraBaixo2rotate= new Vector2 (0,0);
+      Vector3 passagemPraCima2= new Vector3 (5.11f,-1.19f,0);
+      Vector2 passagemPraCima2rotate= new Vector2 (0,0);
     
       void Start()
     {
@@ -55,18 +55,18 @@ public class Personagem : MonoBehaviour
        Destroy(gameObject);
     }
   
-    //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo1 ele mude a posição do personagem determinada na variável
-      if (other.gameObject.tag == "PassagemPraBaixo1")
+    //Determina que quando ele tocar no objeto vazio com a tag passagemPraCima1 ele mude a posição do personagem determinada na variável
+      if (other.gameObject.tag == "PassagemPraCima1")
     {
-     this.gameObject.transform.position = passagemPraBaixo1;
-     this.gameObject.transform.eulerAngles = passagemPraBaixo1rotate;
+     this.gameObject.transform.position = passagemPraCima1;
+     this.gameObject.transform.eulerAngles = passagemPraCima1rotate;
     }
 
-     //Determina que quando ele tocar no objeto vazio com a tag passagemPraBaixo2 ele mude a posição do personagem determinada na variável
-     if (other.gameObject.tag == "PassagemPraBaixo2")
+     //Determina que quando ele tocar no objeto vazio com a tag passagemPraCima2 ele mude a posição do personagem determinada na variável
+     if (other.gameObject.tag == "PassagemPraCima2")
     {
-     this.gameObject.transform.position = passagemPraBaixo2;
-     this.gameObject.transform.eulerAngles = passagemPraBaixo2rotate;
+     this.gameObject.transform.position = passagemPraCima2;
+     this.gameObject.transform.eulerAngles = passagemPraCima2rotate;
     }
 
     if (other.gameObject.tag == "win")
