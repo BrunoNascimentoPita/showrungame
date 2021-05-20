@@ -8,6 +8,7 @@ TagManager:
   - win
   - PassagemPraCima1
   - PassagemPraCima2
+  - Barreira
   layers:
   - Default
   - TransparentFX
