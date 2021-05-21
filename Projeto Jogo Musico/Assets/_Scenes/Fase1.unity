@@ -1319,7 +1319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747480441897859486, guid: 0a413b39f3eede645b6ac28726aabc12, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3747480441897859486, guid: 0a413b39f3eede645b6ac28726aabc12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1972,6 +1972,10 @@ PrefabInstance:
     - target: {fileID: 7579844009190547218, guid: 4ca18620150af2946a1f700890deb5f1, type: 3}
       propertyPath: m_Name
       value: saxofon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756305506545088781, guid: 4ca18620150af2946a1f700890deb5f1, type: 3}
+      propertyPath: zRotation
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca18620150af2946a1f700890deb5f1, type: 3}
