@@ -9,6 +9,8 @@ public class Personagem : MonoBehaviour
       private float velocidade1=0;
       public bool isJumping;
 
+      private Animator anim;
+
     //Seta o pulo
       private float JumpForce=5;
       private Rigidbody2D rig;
@@ -26,6 +28,7 @@ public class Personagem : MonoBehaviour
       void Start()
     {
          rig= GetComponent<Rigidbody2D>();
+         anim = GetComponent<Animator>();
     }
 
     
@@ -34,9 +37,13 @@ public class Personagem : MonoBehaviour
       // Determina que o personagem andará 1*segundo de tempo e para pressionando espaço
        if (Input.GetAxisRaw("Jump") > 0)
         {
-           transform.Translate(Vector2.right * velocidade1 * Time.deltaTime); 
-        }else{
-       transform.Translate(Vector2.right * velocidade * Time.deltaTime); 
+           transform.Translate(Vector2.right * velocidade1 * Time.deltaTime);
+           anim.SetBool("walk", true);  
+        }
+        else
+        {
+            transform.Translate(Vector2.right * velocidade * Time.deltaTime);
+            anim.SetBool("walk", false); 
         }
         Jump();
 
