@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject gameOver;
     public GameObject winTela;
     public GameObject pauseTela;
+    public GameObject volumeSlider;
 
     public static GameController instance;
     // Start is called before the first frame update
@@ -38,12 +39,14 @@ public class GameController : MonoBehaviour
     {
         
         pauseTela.SetActive(true);
+        volumeSlider.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void Resume()
     {
         pauseTela.SetActive(false);
+        volumeSlider.SetActive(false);
         Time.timeScale = 1;
     }
     
