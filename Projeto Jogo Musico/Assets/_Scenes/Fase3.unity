@@ -3312,6 +3312,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 8633940921764269563, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940921764269563, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.g
+      value: 0.86989117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940921764269563, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940922021092152, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940922021092152, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93226576
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940922021092152, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8633940922302516324, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 3.5129395
@@ -3320,9 +3344,33 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633940922408711334, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.b
+      value: 0.07075471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940922408711334, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8969931
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940922408711334, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8633940923354113621, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
       propertyPath: m_Text
       value: Select level
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940923354113621, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940923354113621, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.g
+      value: 0.92988515
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633940923354113621, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49e55c26f78c2e4cad509a3175516db, type: 3}
