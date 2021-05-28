@@ -1341,7 +1341,7 @@ Transform:
   m_GameObject: {fileID: 496596492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.021410909, y: -0.0013152185, z: 0}
-  m_LocalScale: {x: 1.000315, y: 0.9685331, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1216621378}
   m_Father: {fileID: 305620959}
@@ -2715,7 +2715,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 0.38
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 58302a01308974e45b92eb04bc46a88d, type: 3}
