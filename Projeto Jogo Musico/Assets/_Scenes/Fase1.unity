@@ -1436,7 +1436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069695119}
   - component: {fileID: 1069695120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1501,7 +1501,7 @@ GameObject:
   - component: {fileID: 1240577142}
   - component: {fileID: 1240577144}
   - component: {fileID: 1240577143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,7 +1992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1894875162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "Ch\xE3os"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 1988630655}
   - component: {fileID: 1988630654}
   - component: {fileID: 1988630656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
