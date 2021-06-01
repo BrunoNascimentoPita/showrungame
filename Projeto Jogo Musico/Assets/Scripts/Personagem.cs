@@ -12,7 +12,7 @@ public class Personagem : MonoBehaviour
       private Animator anim;
 
     //Seta o pulo
-      private float JumpForce=5;
+      private float JumpForce=0;
       private Rigidbody2D rig;
      // Seta a posição inicial como ponto de reviver
       Vector3 reviver= new Vector3 (0,0,0);
