@@ -8,7 +8,6 @@ public class Personagem : MonoBehaviour
       public float velocidade;
       private float velocidade1=0;
       public bool isJumping;
-
       private Animator anim;
 
     //Seta o pulo
