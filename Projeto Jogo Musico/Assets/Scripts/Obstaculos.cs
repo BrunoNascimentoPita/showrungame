@@ -8,12 +8,30 @@ public class Obstaculos : MonoBehaviour
     public float speed;
     public float zRotation;
 
+    private AudioSource sound;
+
+
+    void Awake()
+    {
+        sound = GetComponent<AudioSource>();
+    } 
+
     // Update is called once per frame
     void Update()
     {
         transform.position += Vector3.down * speed * Time.deltaTime;
         rotationObst();
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            sound.Play();
+            Destroy(this.gameObject, 0.1f);
+        }
+
     }
 
     private void rotationObst()
