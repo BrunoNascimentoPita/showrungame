@@ -8,6 +8,8 @@ public class AudioController : MonoBehaviour
     private static AudioController instance;
 
     public AudioSource BGM;
+    public AudioClip musicMenuInicial;
+    public AudioClip musicSelectFase;
     public AudioClip musicFase1;
     public AudioClip musicFase2;
     public AudioClip musicFase3;
@@ -40,12 +42,18 @@ public class AudioController : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-           BGM.Stop();
+          if (BGM.clip != musicMenuInicial)
+           {
+               changeBGM(musicMenuInicial);
+           } 
         }
 
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
-           BGM.Stop(); 
+          if (BGM.clip != musicSelectFase)
+           {
+               changeBGM(musicSelectFase);
+           } 
         }
 
         if(SceneManager.GetActiveScene().buildIndex == 2)
@@ -70,6 +78,11 @@ public class AudioController : MonoBehaviour
            {
                changeBGM(musicFase3);
            }  
+        }
+
+        if(SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            BGM.Stop();
         }
 
         void changeBGM(AudioClip music)
