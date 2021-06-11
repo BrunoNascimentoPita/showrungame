@@ -9843,6 +9843,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6e5f7518ac1b10b4ca4737bd1d99af04, type: 3}
     - target: {fileID: 8756305506545088781, guid: 4ca18620150af2946a1f700890deb5f1, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756305506545088781, guid: 4ca18620150af2946a1f700890deb5f1, type: 3}
       propertyPath: zRotation
       value: 10
       objectReference: {fileID: 0}
@@ -10478,6 +10482,10 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 15243ae2645f67042afb22b16100f83a, type: 3}
     - target: {fileID: 5131491121163697316, guid: 5fb7054578796ef408abc1126bff12c6, type: 3}
       propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131491121163697317, guid: 5fb7054578796ef408abc1126bff12c6, type: 3}
+      propertyPath: speed
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5131491121163697317, guid: 5fb7054578796ef408abc1126bff12c6, type: 3}
@@ -11148,6 +11156,10 @@ PrefabInstance:
     - target: {fileID: 8667294900199529436, guid: e7f3ebec6fa6f924e8396ed4306fbe74, type: 3}
       propertyPath: m_Name
       value: BATERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826985926705886174, guid: e7f3ebec6fa6f924e8396ed4306fbe74, type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7f3ebec6fa6f924e8396ed4306fbe74, type: 3}
