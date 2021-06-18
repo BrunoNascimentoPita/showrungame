@@ -4331,6 +4331,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6056504170278958900, guid: 6955b527bc39dfb409271286b5c319b0, type: 3}
+      propertyPath: musicSelectFase
+      value: 
+      objectReference: {fileID: 8300000, guid: e93b7eacfe146c1498b3dae77a51e33a, type: 3}
+    - target: {fileID: 6056504170278958900, guid: 6955b527bc39dfb409271286b5c319b0, type: 3}
+      propertyPath: musicMenuInicial
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f83d97f253a3084cb438160e93053ed, type: 3}
     - target: {fileID: 6056504170278958901, guid: 6955b527bc39dfb409271286b5c319b0, type: 3}
       propertyPath: m_RootOrder
       value: 2
