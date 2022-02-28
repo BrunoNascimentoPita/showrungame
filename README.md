@@ -1,14 +1,14 @@
-# SHOW TIME - GAME
-# PROJETO DE JOGO DA FACULDADE
+# Show Time - game
+# Projeto de jogo da faculdade
 
-# HISTÓRIA DO JOGO
- JOGO SE TRATA DE UM MÚSICO QUE NÃO TINHA MUITAS OPORTUNIDADES E QUANDO A TEVE NÃO TEVE MUITA ESCOLHA A NÃO SER PASSAR PELOS DESAFIOS ENCONTRADOS, A OPORTUNIDADE ERA MILIONÁRIA, SUA CHANCE DE MUDAR DE VIDA.
+# História do jogo
+O jogo se trata de um músico que não tinha muitas oportunidades e quando a teve não teve muita escolha a não ser passar pelos desafios encontrados, a oportunidade era milionária, sua chance de mudar de vida.
 
- JOGO DE OBSTÁCULOS 2D PIXEL ART, DESENVOLVIDO NA UNITY ENGINE.
+Jogo de obstáculos, 2D, pixel art, desenvolvido na unity engine.
 
 
- AUTORES: 
-André Menezes - Programador
-Bruno Nascimento - UI , Artista 2D e Pixel Artista
-Igo Pereira - Pixel Artista
-Pedro Leal - Sound Designer e Roteirista
+Autores: 
+ André menezes - programador
+ Bruno nascimento - ui , artista 2d e pixel artista
+ Igo pereira - pixel artista
+ Pedro leal - sound designer e roteirista
