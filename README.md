@@ -1,6 +1,6 @@
-# Show Time - game
+# Show Run - game
 Projeto de jogo desenvolvido na UNEB- Universidade do Estado da Bahia
--  Baixe e jogue em https://onurbl.itch.io/showtime-game
+-  Baixe e jogue em https://onurbl.itch.io/showrun-game
 # História do jogo
 O jogo se trata de um músico que não tinha muitas oportunidades, e quando a teve, não teve outra escolha a não ser passar pelos desafios encontrados, a oportunidade era milionária, sua chance de mudar de vida.
 
