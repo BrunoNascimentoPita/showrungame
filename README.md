@@ -9,7 +9,7 @@ Jogo de obstáculos, 2D, pixel art, desenvolvido na unity engine.
 
 
 # Autores: 
- - André menezes - programador
- - Bruno nascimento - ui , artista 2d e pixel artista
- - Igo pereira - pixel artista
- - Pedro leal - sound designer e roteirista
+André Menezes - Programmer
+Bruno Nascimento -  UI, 2D Artist , Pixel Artist and Sound Designer
+Igo Pereira -  Pixel Artist and Animator
+Pedro Leal -  Sound, Level Designer and Screenwriter
