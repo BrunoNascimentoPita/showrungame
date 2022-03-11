@@ -8,7 +8,7 @@ O jogo se trata de um músico que não tinha muitas oportunidades, e quando a te
 Jogo de obstáculos, 2D, pixel art, desenvolvido na unity engine.
 
 
-# Autores: 
+# Autores 
 -  André Menezes - Programmer
 -  Bruno Nascimento -  UI, 2D Artist , Pixel Artist and Sound Designer
 -  Igo Pereira -  Pixel Artist and Animator
