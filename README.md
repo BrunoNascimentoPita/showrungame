@@ -9,7 +9,7 @@ Jogo de obstáculos, 2D, pixel art, desenvolvido na unity engine.
 
 
 # Como Jogar
--  Aperte em qualquer lugar da tela parte esquerda ou em "tap to play".
+-  Clique em qualquer lugar da tela parte esquerda ou em "tap to play".
 
 -  Controles - Apenas pressione a tecla "espaço" para parar o personagem e solte-a para deixá-lo andar.
 
