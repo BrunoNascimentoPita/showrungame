@@ -8,13 +8,13 @@ O jogo se trata de um músico que não tinha muitas oportunidades, e quando a te
 Jogo de obstáculos, 2D, pixel art, desenvolvido na unity engine.
 
 
+# Como Jogar
+-  Aperte em qualquer lugar da tela parte esquerda ou em "tap to play".
+
+-  Controles - Apenas pressione a tecla "espaço" para parar o personagem e solte-a para deixá-lo andar.
+
 # Autores 
 -  André Menezes - Programmer
 -  Bruno Nascimento -  UI, 2D Artist , Pixel Artist and Sound Designer
 -  Igo Pereira -  Pixel Artist and Animator
 -  Pedro Leal -  Sound, Level Designer and Screenwriter
-
-# Como Jogar
--  Aperte em qualquer lugar da tela parte esquerda ou em "tap to play".
-
--  Controles - Apenas pressione a tecla "espaço" para parar o personagem e solte-a para deixá-lo andar.
