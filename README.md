@@ -1,6 +1,6 @@
 # Show Run - game
 Projeto de jogo desenvolvido na UNEB- Universidade do Estado da Bahia
--  Baixe e jogue em https://onurbl.itch.io/showrun-game
+-  Baixe e jogue em https://onurbl.itch.io/showrun-game (Somente para windows PC)
 # História do jogo
 O jogo se trata de um músico que não tinha muitas oportunidades, e quando a teve, não teve outra escolha a não ser passar pelos desafios encontrados, a oportunidade era milionária, sua chance de mudar de vida.
 
