@@ -14,86 +14,75 @@ public class AudioController : MonoBehaviour
     public AudioClip musicFase2;
     public AudioClip musicFase3;
 
+    private int currentSceneIndex = 1;
+    private Dictionary<int, AudioClip> sceneMusicMap;
+
     void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(instance);
-
+            DontDestroyOnLoad(gameObject);
         }
-
         else
         {
             Destroy(gameObject);
         }
 
+        sceneMusicMap = new Dictionary<int, AudioClip>
+        {
+            { 0, musicMenuInicial },
+            { 1, musicSelectFase },
+            { 2, musicFase1 },
+            { 3, musicFase2 },
+            { 4, musicFase3 },
+        };
     }
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateMusic();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 0)
+        if (currentSceneIndex != SceneManager.GetActiveScene().buildIndex)
         {
-          if (BGM.clip != musicMenuInicial)
-           {
-               changeBGM(musicMenuInicial);
-           } 
+            UpdateMusic();
         }
+    }
 
-        if(SceneManager.GetActiveScene().buildIndex == 1)
+    void UpdateMusic()
+    {
+        int newSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (sceneMusicMap.ContainsKey(newSceneIndex))
         {
-          if (BGM.clip != musicSelectFase)
-           {
-               changeBGM(musicSelectFase);
-           } 
+            if (BGM.clip != sceneMusicMap[newSceneIndex])
+            {
+                changeBGM(sceneMusicMap[newSceneIndex]);
+            }
         }
-
-        if(SceneManager.GetActiveScene().buildIndex == 2)
-        {
-           if (BGM.clip != musicFase1)
-           {
-               changeBGM(musicFase1);
-           }  
-        }
-
-        if(SceneManager.GetActiveScene().buildIndex == 3)
-        {
-           if (BGM.clip != musicFase2)
-           {
-               changeBGM(musicFase2);
-           }  
-        }
-
-        if(SceneManager.GetActiveScene().buildIndex == 4)
-        {
-           if (BGM.clip != musicFase3)
-           {
-               changeBGM(musicFase3);
-           }  
-        }
-
-        if(SceneManager.GetActiveScene().buildIndex == 5)
+        else if (newSceneIndex == 5)
         {
             BGM.Stop();
         }
 
-        void changeBGM(AudioClip music)
+        currentSceneIndex = newSceneIndex;
+    }
+
+    public void PlayMusicSelectFase()
+    {
+        if (BGM.clip != musicSelectFase)
         {
-            BGM.Stop();
-            BGM.clip = music;
-            BGM.Play();
+            changeBGM(musicSelectFase);
         }
+    }
 
-
-
-
+    void changeBGM(AudioClip music)
+    {
+        BGM.Stop();
+        BGM.clip = music;
+        BGM.Play();
     }
 }
